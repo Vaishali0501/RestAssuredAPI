@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[BaseURI Set]]>
+    </line>
+    <line>
+      <![CDATA[Get Value API Test begins]]>
+    </line>
+    <line>
+      <![CDATA[Status code is200]]>
+    </line>
+    <line>
+      <![CDATA[Status code does not exist]]>
+    </line>
+    <line>
+      <![CDATA[BaseURI Set]]>
+    </line>
+    <line>
+      <![CDATA[Post Value API Test begins]]>
+    </line>
+    <line>
+      <![CDATA[Status code is404]]>
+    </line>
+    <line>
+      <![CDATA[Status code does not match]]>
+    </line>
+    <line>
+      <![CDATA[BaseURI Set]]>
+    </line>
+    <line>
+      <![CDATA[Put Value API Test begins]]>
+    </line>
+    <line>
+      <![CDATA[Delete Value API Test begins]]>
+    </line>
+    <line>
+      <![CDATA[ID does not exist]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="5278" started-at="2020-02-02T05:28:27Z" finished-at="2020-02-02T05:28:33Z">
+    <groups>
+    </groups>
+    <test name="Sanity test" duration-ms="5278" started-at="2020-02-02T05:28:27Z" finished-at="2020-02-02T05:28:33Z">
+      <class name="com.qa.furniture.test.FurnitureGetTest">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@7c30a502]" name="beforeClass" is-config="true" duration-ms="882" started-at="2020-02-01T23:28:27Z" finished-at="2020-02-01T23:28:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e38d975]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BaseURI Set]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@7c30a502]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-01T23:28:28Z" finished-at="2020-02-01T23:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="swaggerTest()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@7c30a502]" name="swaggerTest" duration-ms="2051" started-at="2020-02-01T23:28:28Z" finished-at="2020-02-01T23:28:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Get Value API Test begins]]>
+            </line>
+            <line>
+              <![CDATA[Status code is200]]>
+            </line>
+            <line>
+              <![CDATA[Status code does not exist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- swaggerTest -->
+      </class> <!-- com.qa.furniture.test.FurnitureGetTest -->
+      <class name="com.qa.furniture.test.FurniturePostTest">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurniturePostTest@36d64342]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-01T23:28:30Z" finished-at="2020-02-01T23:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e38d975]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BaseURI Set]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="postProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.furniture.test.FurniturePostTest@36d64342]" name="postProduct" duration-ms="1127" started-at="2020-02-01T23:28:31Z" data-provider="getProductData" finished-at="2020-02-01T23:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[blue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New chair]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[soft cotton, sandal Wood]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[chair]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[24000.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Post Value API Test begins]]>
+            </line>
+            <line>
+              <![CDATA[Status code is404]]>
+            </line>
+            <line>
+              <![CDATA[Status code does not match]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postProduct -->
+      </class> <!-- com.qa.furniture.test.FurniturePostTest -->
+      <class name="com.qa.furniture.test.FurniturePut">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurniturePut@39ba5a14]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-02-01T23:28:32Z" finished-at="2020-02-01T23:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e38d975]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BaseURI Set]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="putTest(java.lang.String)[pri:0, instance:com.qa.furniture.test.FurniturePut@39ba5a14]" name="putTest" duration-ms="175" started-at="2020-02-01T23:28:32Z" data-provider="getProductData" finished-at="2020-02-01T23:28:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Put Value API Test begins]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurniturePut@39ba5a14]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-01T23:28:32Z" finished-at="2020-02-01T23:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.qa.furniture.test.FurniturePut -->
+      <class name="com.qa.furniture.test.FurnitureDelete">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurnitureDelete@511baa65]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-01T23:28:33Z" finished-at="2020-02-01T23:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.qa.furniture.test.FurnitureDelete@511baa65]" name="deleteTest" duration-ms="157" started-at="2020-02-01T23:28:33Z" finished-at="2020-02-01T23:28:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete Value API Test begins]]>
+            </line>
+            <line>
+              <![CDATA[ID does not exist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.qa.furniture.test.FurnitureDelete -->
+    </test> <!-- Sanity test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
